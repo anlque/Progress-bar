@@ -1,0 +1,9 @@
+.Checkout {
+    &::before {
+        display: none;
+    }
+
+    @include desktop {
+        margin-top: 0;
+    }
+}
